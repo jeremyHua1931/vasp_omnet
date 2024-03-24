@@ -7,19 +7,7 @@
 
 ## Install
 
-### Git Clone Repository
 
-```
-mkdir vasp_omnet
-cd vasp_omnet
-
-git submodule add -b veins-5.2-vasp git@github.com:jeremyHua1931/veins.git
-
-cd veins
-
-git submodule update --init
-
-```
 
 ### Dependencies
 
@@ -44,3 +32,11 @@ Operating System: Ubuntu/Debian/macOS
 * Start sumo server: bin/veins_launchd -vv
 * Change directory to <path/to/veins>/src/vasp/scenario/
 * Run simulation: `./run [-u Cmdenv]`
+
+### Make Top Repository
+
+```
+mkdir vasp_omnet
+cd vasp_omnet
+git submodule add -b veins-5.2-vasp git@github.com:jeremyHua1931/veins.git
+```
