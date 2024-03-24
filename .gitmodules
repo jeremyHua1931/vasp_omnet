@@ -1,0 +1,4 @@
+[submodule "veins"]
+	path = veins
+	url = git@github.com:jeremyHua1931/veins.git
+	branch = veins-5.2-vasp

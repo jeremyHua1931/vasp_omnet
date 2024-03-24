@@ -17,7 +17,8 @@ git submodule add -b veins-5.2-vasp git@github.com:jeremyHua1931/veins.git
 
 cd veins
 
-git submodule add -b main  git@github.com:jeremyHua1931/vasp.git src/vasp
+git submodule update --init
+
 ```
 
 ### Dependencies
